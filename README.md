@@ -1,40 +1,68 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# Aqtart Demo
+
+Aqtart Demo is a Next.js project initialized with `create-next-app`.
+
+## Tech Stack
+
+- **Next.js** – React framework for server-side rendering and static site generation.
+- **React** – Frontend JavaScript library for building UI components.
+- **TypeScript** – Strongly typed JavaScript for better code quality and maintainability.
+- **Tailwind CSS** – Utility-first CSS framework for rapid UI development.
+- **Node.js** – JavaScript runtime for backend API handling.
+- **Vercel** – Deployment platform for frontend applications.
 
 ## Getting Started
 
-First, run the development server:
+To set up the development environment:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. **Install Dependencies**:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+   ```bash
+   npm install
+   # or
+   yarn install
+   # or
+   pnpm install
+   # or
+   bun install
+   ```
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+2. **Run the Development Server**:
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   # or
+   pnpm dev
+   # or
+   bun dev
+   ```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+   Once the server is running, open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Project Structure
+
+- **`components/`**: Contains reusable React components used throughout the application.
+- **`lib/`**: Holds utility functions and libraries for data fetching and other operations.
+- **`pages/`**: Includes all the pages of the application, following Next.js's file-based routing system.
+- **`public/`**: Stores static assets like images, fonts, and other files.
+- **`styles/`**: Contains global and component-specific CSS styles.
+
+## API Routes
+
+API routes are located in the `pages/api` directory. For example:
+
+- **`pages/api/hello.ts`**: Accessible at [http://localhost:3000/api/hello](http://localhost:3000/api/hello).
+
+Files in this directory are treated as API endpoints instead of React components.
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+To learn more about Next.js, consider exploring the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+- [Next.js Documentation](https://nextjs.org/docs): Comprehensive guide on Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn): Interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+For additional information on the `aqtart-demo` project, please refer to the repository's README file.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
