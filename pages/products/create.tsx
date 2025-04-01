@@ -206,10 +206,10 @@ export default function CreateProduct() {
                     </SelectTrigger>
                     <SelectContent>
                       <SelectItem value="men's clothing">
-                        Men's Clothing
+                        Men&apos;s Clothing
                       </SelectItem>
                       <SelectItem value="women's clothing">
-                        Women's Clothing
+                        Women&apos;s Clothing
                       </SelectItem>
                       <SelectItem value="electronics">Electronics</SelectItem>
                       <SelectItem value="jewelery">Jewelery</SelectItem>

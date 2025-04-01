@@ -122,10 +122,9 @@ export default function EditProduct({ product, error }: EditProductProps) {
         <title>Edit Product | Aqtar</title>
         <meta
           name="description"
-          content="Edit a product in the fake store API"
-        />
+          content="Edit a product in the fake store API" />
       </Head>
-      <div>
+      <div >
         <Button variant="outline" asChild>
           <Link href={`/products/${product.id}`}>
             <ArrowLeft className="mr-2 h-4 w-4" /> Back to Product
@@ -213,10 +212,10 @@ export default function EditProduct({ product, error }: EditProductProps) {
                     </SelectTrigger>
                     <SelectContent>
                       <SelectItem value="men's clothing">
-                        Men's Clothing
+                        Men&apos;s Clothing
                       </SelectItem>
                       <SelectItem value="women's clothing">
-                        Women's Clothing
+                        Women&apos;s Clothing
                       </SelectItem>
                       <SelectItem value="electronics">Electronics</SelectItem>
                       <SelectItem value="jewelery">Jewelery</SelectItem>
